@@ -25,6 +25,10 @@ export function getOutcome(userChoice) {
     return [userChoice, computerChoice, outcomes[userChoice][computerChoice]];
 }
 
+/**
+ * Reset the gameState
+ * @param {object} gameState 
+ */
 export function resetGame(gameState) {
     gameState.stats = { wins: 0, losses: 0, ties: 0 };
 }

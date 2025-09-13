@@ -1,3 +1,4 @@
+//Keep up with stats
 const gameState = {
     stats: {
         wins: 0,
